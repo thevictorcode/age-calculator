@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;1,300;1,400&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,400&family=Montserrat+Alternates:ital,wght@0,100;0,300;0,400;0,500;1,100;1,200;1,300&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Staatliches&family=Viaoda+Libre&display=swap');
+
+
+*{margin-top: 20px;
+}
+
+body {
+    position: relative;
+    background: lightcoral !important;
+}
+
+.container{
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 50px;
+    border-width: 100%;
+    text-align: center;
+    background: lightgray;
+   
+}
+
+
+.container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+}
+
+.answer{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 20px;
+
+}
